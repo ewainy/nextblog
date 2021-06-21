@@ -1,3 +1,8 @@
+For this blog I followed along with the Net Ninja Next.js & Contentful tutorial on youtube. 
+I have changed the styling & content type.
+I have left the getting started info in below:
+
+
 This is the Next.js starter site (and course files) for the Next.js & Contentful tutorial by the Net Ninja.
 
 ## Getting Started
