@@ -39,7 +39,7 @@ export const getStaticProps = async ({ params }) => {
 export default function BlogPreview({ blog }) {
  const {  title, post } = blog.fields
 
-  console.log(content)
+
   return (
     <div>
 
