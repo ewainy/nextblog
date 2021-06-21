@@ -7,12 +7,11 @@ export default function Layout({ children }) {
         <Link href="/">
           <a>
             <h1>
-              <span>Just Add</span>
-              <span>Marmite</span>
+            Bitesize Blog
             </h1>
-            <h2>Spread The Joy</h2>
           </a>
         </Link>
+        <p>☆ Short and sweet posts about my coding journey, what I have learned and sharing resources that I find useful ☆ </p>
       </header>
 
       <div className="page-content">
@@ -20,8 +19,22 @@ export default function Layout({ children }) {
       </div>
 
       <footer>
-        <p>Copyright 2021 Just Add Marmite :)</p>
+        <p>❤️</p>
       </footer>
+
+
+        <style jsx>{`
+
+     
+   
+      
+.page-content {
+  text-align:center;  
+}
+  
+     
+      `}
+      </style>
     </div>
   )
 }
