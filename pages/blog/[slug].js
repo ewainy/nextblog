@@ -1,5 +1,5 @@
 import { createClient } from 'contentful'
-
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
 
 const client = createClient({
@@ -37,7 +37,7 @@ export const getStaticProps = async ({ params }) => {
 }
 
 export default function BlogPreview({ blog }) {
-  const {  title, content } = blog.fields
+ const {  title, post } = blog.fields
 
   console.log(content)
   return (
@@ -46,7 +46,7 @@ export default function BlogPreview({ blog }) {
         
       <div className="content">
         <h2>{title}</h2>
-        <p>{content}</p>
+               <div>{documentToReactComponents(post)} </div>
         
       </div>
 
