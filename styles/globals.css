@@ -55,6 +55,15 @@ header p {
   font-family: 'Roboto Mono', monospace;
   padding: 10px;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-transform: uppercase;
+}
 footer {
 
   color: #bbb;
