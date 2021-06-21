@@ -35,6 +35,15 @@ export default function BlogPreview({ blog }) {
        margin: 20px;
  text-align: center;
         }
+        
+          .info:hover {
+          transform: scale(1.1);
+          box-shadow:
+          0 0 5px  rgb(165, 129, 250),
+          0 0 10px  rgb(182, 155, 247),
+          0 0 20px  rgb(192, 167, 250),
+          0 0 30px white;
+        }
     
         .info h4 {
          
