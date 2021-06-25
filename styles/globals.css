@@ -78,3 +78,22 @@ font-size: 1rem;
   width: 100%;
   box-sizing: border-box;
 }
+
+pre {
+  border: 2px solid white;
+
+}
+
+blockquote {
+  font-style: italic;
+  background-color:rgb(40, 1, 112);
+  letter-spacing: 2px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 768px) {
+ pre {
+  font-size: 0.8rem;
+
+  }
+}
