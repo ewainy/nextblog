@@ -11,6 +11,11 @@ export default function Layout({ children }) {
             </h1>
           </a>
         </Link>
+        <Link href="https://ewainy.github.io/portfolio/">
+          <a>
+           Back to Portfolio
+          </a>
+        </Link>
         <p>☆ Short and sweet posts about my coding journey, what I have learned and sharing resources that I find useful ☆ </p>
       </header>
 
